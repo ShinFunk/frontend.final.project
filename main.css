@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#switch {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: rgb(1, 19, 13);
+  }
+.btn {
+  opacity: 0.5;
+  display: flex;
+  width: 200px;
+  margin: 0 0 2rem 10px;
+  padding: 5px;
+  font-size: 1.6rem;
+  text-align: center;
+  justify-content: center;
+  background: rgb(144, 171, 245);
+  color: #FFF;
+  border-bottom: 4px solid rgba(0, 0, 0, .2);
+  border-radius: 5px;
+  }
+@media (max-width: 1200px) {
+  .btn {
+    width: 100px;
+    font-size: 1rem;
+    margin: 0 0 1.5rem 5px;
+  } 
+}
+.btn:hover {
+  opacity: .8;
+  cursor: pointer;
+  }
+.inactive { opacity: 1; }
+.inactive:hover {
+  opacity: .5;
+  cursor: default;
+  }
+.boxNone { display: none; }
+
+.boxDisplay {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(19, 1, 1);
+}
+
+@media (max-width: 1200px) {
+  .boxDisplay {
+    margin-top: -20px;
+  }
+  .disapear {
+      display: none;
+  } 
+}
+
+.white {
+  width: 95px;
+  height:380px; 
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(37, 37, 37);
+  border-radius:0 0 5px 5px;
+  cursor: pointer;
+}
+
+.white.active {
+  background-color: #CCC;
+}
+
+.black {
+  width: 57px;
+  height: 228px;
+  background-color: black;
+  border-radius:0 0 5px 5px;
+  margin-left: -28.5px;
+  margin-right: -28.5px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.black.active {
+  background-color: rgb(78, 76, 76);
+}
+
+@media (max-width: 1200px) {
+  .white {
+    width: 14vw;
+    height: 100vh;
+    border-radius:0 0 3px 3px;
+  }
+  .black {
+    width: 8.4vw;
+    height: 60vh;
+    background-color: black;
+    border-radius:0 0 3px 3px;
+    margin-left: -4.2vw;
+    margin-right: -4.2vw;
+  }
+}
+
+.music{
+    background: radial-gradient(#d3aa3a, #ca693c);
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px;
+    flex: 1 0 calc(33.333% - 10px);
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  @media (max-width: 1200px) {
+    .music {
+      font-size: 18px;
+      margin: 3px;
+      border-radius: 15px;
+    }
+  }
+
+.head.active {
+  background-image: url("https://media.giphy.com/media/OHAfNHvXBX2Yo/giphy.gif");
+  background-size: 100% 100%;
+  color: transparent;
+}
+
+.abc.active {
+  background-image: url("https://media.giphy.com/media/xT1Ra5A0xoGwTXE39S/giphy.gif");
+  background-size: 100% 100%;
+  color: transparent;
+}
+
+.benny.active {
+  background-image: url("https://media.giphy.com/media/cMso9wDwqSy3e/giphy.gif");
+  background-size: 100% 100%;
+  color: transparent;
+}
+
+.rainbow.active {
+  background-image: url("https://media.giphy.com/media/QtWflWpaB6vL2/giphy.gif");
+  background-size: 100% 100%;
+  color: transparent;
+}
+
+.spider.active {
+  background-image: url("https://media.giphy.com/media/cLBS6ISYMay68kVpWE/giphy.gif");
+  background-size: 100% 100%;
+  color: transparent;
+}
+
+.ningNang.active {
+  background-image: url("https://media.giphy.com/media/3HMiEFzstXigw/giphy.gif");
+  background-size: 100% 100%;
+  color: transparent;
+}
